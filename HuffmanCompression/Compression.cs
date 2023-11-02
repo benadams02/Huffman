@@ -1,4 +1,5 @@
 ﻿using HuffmanCompression.FrequencyTable;
+using HuffmanCompression.Helpers;
 using HuffmanCompression.Tree;
 using System;
 using System.Collections.Generic;
@@ -24,6 +25,17 @@ namespace HuffmanCompression
             var frequencyTable = FrequencyTable.FrequencyTable.Build(fileText);
 
             var huffmanTree = new HuffmanTree(frequencyTable);
+
+            var result = huffmanTree.Encode(fileText);
+
+            var decoded = huffmanTree.Decode(result);
+
+            var worked = false;
+            if(fileText.Equals(decoded)) worked = true;
+
+            var newFilepath = $"{FileHelper.RemoveExtension(filePath)}.huff";
+
+            //sFileHelper.WriteBitArrayToFile(newFilepath, result);
         }
 
         public void Decompress()

@@ -7,4 +7,4 @@ Console.WriteLine("Hello, World!");
 
 var compress = new Compression();
 
-compress.Compress("C:\\Users\\Ben\\source\\repos\\HuffmanConsole\\HuffmanConsole\\TestFile.txt");
+compress.Compress("C:\\Users\\email\\source\\repos\\Huffman\\HuffmanConsole\\TestFile.txt");
