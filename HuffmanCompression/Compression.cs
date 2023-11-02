@@ -28,11 +28,6 @@ namespace HuffmanCompression
 
             var result = huffmanTree.Encode(fileText);
 
-            var decoded = huffmanTree.Decode(result);
-
-            var worked = false;
-            if(fileText.Equals(decoded)) worked = true;
-
             var newFilepath = $"{FileHelper.RemoveExtension(filePath)}.huff";
 
             //sFileHelper.WriteBitArrayToFile(newFilepath, result);
