@@ -9,6 +9,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\BCompression\HuffmanCompression.csproj" />
+    <ProjectReference Include="..\HuffmanCompression\HuffmanCompression.csproj" />
   </ItemGroup>
 
 </Project>
