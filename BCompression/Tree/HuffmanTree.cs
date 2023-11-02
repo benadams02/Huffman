@@ -1,6 +1,6 @@
-﻿using BCompression.FrequencyTable;
+﻿using HuffmanCompression.FrequencyTable;
 
-namespace BCompression.Tree
+namespace HuffmanCompression.Tree
 {
     internal class HuffmanTree
     {

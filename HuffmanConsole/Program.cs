@@ -1,5 +1,5 @@
 ﻿// See https://aka.ms/new-console-template for more information
-using BCompression;
+using HuffmanCompression;
 
 Console.WriteLine("Hello, World!");
 

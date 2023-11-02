@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.6.33829.357
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HuffmanConsole", "HuffmanConsole\HuffmanConsole.csproj", "{DBF61321-B254-4245-9D8C-688D6FF56C18}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HuffmanConsole", "HuffmanConsole\HuffmanConsole.csproj", "{DBF61321-B254-4245-9D8C-688D6FF56C18}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BCompression", "BCompression\BCompression.csproj", "{7A867715-C1F1-4DE5-87CA-5DEFBFA0FD5E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HuffmanCompression", "BCompression\HuffmanCompression.csproj", "{7A867715-C1F1-4DE5-87CA-5DEFBFA0FD5E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

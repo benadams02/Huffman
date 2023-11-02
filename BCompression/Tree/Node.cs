@@ -1,4 +1,4 @@
-﻿namespace BCompression.Tree
+﻿namespace HuffmanCompression.Tree
 {
     internal class Node
     {

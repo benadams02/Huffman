@@ -1,12 +1,12 @@
-﻿using BCompression.FrequencyTable;
-using BCompression.Tree;
+﻿using HuffmanCompression.FrequencyTable;
+using HuffmanCompression.Tree;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace BCompression
+namespace HuffmanCompression
 {
     public class Compression
     {

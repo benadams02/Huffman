@@ -1,4 +1,4 @@
-﻿namespace BCompression.FrequencyTable
+﻿namespace HuffmanCompression.FrequencyTable
 {
     internal sealed class FrequencyTable
     {
